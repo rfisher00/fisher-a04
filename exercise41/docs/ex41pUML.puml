@@ -1,0 +1,14 @@
+@startuml
+
+class Solution41 {
+    'variables
+    -inputFile: String
+    -names: List
+    -inputLine: String
+    -nameArr: String[]
+    'methods
+    +getInput(): List
+    +makeOutput(): Array
+}
+
+@enduml
