@@ -1,0 +1,18 @@
+@startuml
+
+class Solution43 {
+    'variables
+    -path: String
+    -siteName: String
+    -author: String
+    -madeDir: boolean
+    -madeJS: boolean
+    -madeCSS: boolean
+    'methods
+    +makeDir(): boolean
+    +makeHtml()
+    +makeFolder(): boolean
+    +finalOutput()
+}
+
+@enduml
